@@ -226,3 +226,10 @@ permission:
 mcpActions:
   name: 'My Company Backstage' # defaults to "backstage"
   description: 'Tools for managing your software catalog, creating new services from templates, and exploring your developer portal' # optional
+
+langfuse:
+  baseUrl: https://jp.cloud.langfuse.com
+  publicKey: ${LANGFUSE_PUBLIC_KEY}
+  secretKey: ${LANGFUSE_SECRET_KEY}
+  mock: ${LANGFUSE_MOCK}         
+  cacheTtlSeconds: 10
